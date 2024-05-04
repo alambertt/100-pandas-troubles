@@ -1,27 +1,57 @@
-# Proyecto de 100 Problemas de Pandas
+# Pandas 100 Problems
 
-Este proyecto tiene como objetivo resolver 100 problemas utilizando la librería Pandas en Python. Pandas es una herramienta poderosa y flexible que permite la manipulación y el análisis de datos en Python.
+This project contains 100 problems that can be solved using the Pandas library. Each problem has a corresponding Python script in the `problems` directory, a CSV data file in the `data` directory, and a solution script in the `solutions` directory.
 
-## Contenido
+## Project Structure
 
-El repositorio contiene los siguientes elementos:
+```
+pandas-100-problems
+├── problems
+│   ├── problem_01.py
+│   ├── problem_02.py
+│   ├── ...
+│   └── problem_100.py
+├── data
+│   ├── data_01.csv
+│   ├── data_02.csv
+│   ├── ...
+│   └── data_100.csv
+├── solutions
+│   ├── solution_01.py
+│   ├── solution_02.py
+│   ├── ...
+│   └── solution_100.py
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
 
-1. **Problemas**: Una lista de 100 problemas que se resolverán utilizando Pandas.
-2. **Soluciones**: Códigos de Python que resuelven cada uno de los problemas.
-3. **Datos**: Conjuntos de datos utilizados en los problemas.
+## Problem Scripts
 
-## Cómo utilizar este repositorio
+The `problems` directory contains 100 Python scripts, each named `problem_X.py`, where `X` is the problem number. These scripts use the Pandas library to solve a specific problem.
 
-Para utilizar este repositorio, simplemente clona el repositorio y ejecuta los scripts de Python para cada problema. Asegúrate de tener instalada la librería Pandas.
+## Data Files
 
-## Contribuciones
+The `data` directory contains 100 CSV files, each named `data_X.csv`, where `X` is the problem number. These files contain the data required for the corresponding problem script.
 
-Las contribuciones a este proyecto son bienvenidas. Si encuentras una mejor solución a alguno de los problemas, no dudes en hacer un pull request.
+## Solution Scripts
 
-## Licencia
+The `solutions` directory contains 100 Python scripts, each named `solution_X.py`, where `X` is the problem number. These scripts provide the solution to the corresponding problem using the Pandas library.
 
-Este proyecto está bajo la licencia MIT.
+## Git Ignore
 
-## Contacto
+The `.gitignore` file specifies which files and directories should be ignored by Git version control. It is used to exclude files that are not necessary for the project's source code.
 
-Si tienes alguna pregunta o sugerencia, no dudes en contactarme: https://t.me/alambertt1991
+## Requirements
+
+The `requirements.txt` file lists the dependencies required for the project. It specifies the version of the Pandas library that should be installed.
+
+## Usage
+
+To solve a specific problem, you can run the corresponding problem script from the `problems` directory. Make sure you have the required data file in the `data` directory.
+
+To check the solution for a problem, you can run the corresponding solution script from the `solutions` directory. The solution script will use the problem script and the data file to provide the solution using the Pandas library.
+
+Feel free to explore the project and solve the problems using the Pandas library!
+
+This file is intentionally left blank.
